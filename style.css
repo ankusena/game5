@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxnsqazPFfWnolqciNk6fvf0NJqFePSATLSQ&s);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game {
+    text-align: center;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: 100%;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-template-rows: repeat(5, 50px);
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.puzzle-cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d0aeb;
+    border: 1px solid #000;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.puzzle-cell.filled {
+    background-color: #0f1ddb;
+}
+
+#letter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.letter-button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #e0f00b;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.letter-button:hover {
+    background-color: #143d4d;
+}
+
+#input-word {
+    margin-top: 20px;
+}
+
+#current-word {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: red;
+}
